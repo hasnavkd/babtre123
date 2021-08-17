@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: auto auto auto;
+            
+          /*  justify-content: center;
+            width: 100%;*/
+            padding: 20px 100px;
+
+        }
+        .logo{
+         grid-template-columns: 2fr;
+        /* height: 50px;*/
+         
+    
+        }
+        .button{
+          /* background-color: blue;*/
+            grid-column-start: 3;
+            grid-column-end: 4;
+            
+            padding-top: 30px;
+            text-align-last: right;
+            border-radius: 5px;
+            font-size: 15px;
+            
+        }
+        .menubar{
+            background-color:rgb(34 31 73 / 89%)  ;
+            grid-column-start: 1;
+            grid-column-end: 4;
+            color: white;
+            border-radius: 10px;
+
+            
+        }
+        #menu li{
+            display: inline; padding: 20px 20px;
+            
+        }
+        .baner{
+            grid-column-start: 1;
+            grid-column-end: 4;
+        }
+        .h2{
+            background-color: rgb(13, 13, 77);
+            color:white;
+            grid-column-start: 1;
+            grid-column-end: 4;
+            text-align: center;
+            margin: 0px 100px;
+        }
+        .footer{
+            background-color: rgb(60, 236, 207);
+        }
+        .description{
+            text-align: center;
+        }
+      
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo"><img src="baabtlogo.png" alt=""> </div>
+        <div class="button"><button style="background-color: rgb(34 31 73 / 89%) ; color: white; font-size: 15px; padding: 5px;border-radius: 6px;">LOG IN</button>
+            <button  style="background-color: rgb(0, 114, 0) ; color: white; font-size: 15px; padding: 5px; border-radius: 6px;">REGISTER</button>
+        </div>
+        
+        <div class="menubar">
+            <ul id="menu">
+                <li>Home</li>
+                <li>Courses</li>
+                <li>Contact us</li>
+            </ul>
+
+        </div>
+        <div class="baner">
+            <img src="baaptraimage.jpeg" alt="" width="100%" >
+        </div>
+        <div class="h2">
+            <h2 >GETTING A SOFTWARE JOB IS SO EASY WITH OUR<br> INTERNSHIP PROGRAM</h2>
+        </div>
+      
+            <div class="description">
+                <h4  >our office</h4>
+                <img src="offficeimg.jpg" alt="" width="70%">
+            </div>
+            <div class="description">
+                <h4>Best python training in calicut</h4>
+                <p>Python is one of the hot programming languages nowadays. Many freshers are learning this software development technology and are getting placed as Python Developer in Software Companies. Baabtra has the highest number of candidates got trained in Python in the last year. We train you to develop a web application using Python with Django framework and MySql database.</p>
+            </div>
+            <div class="description">
+                <h4>Life @baabtra</h4>
+                <img src="lifeatbabtra.jpeg" alt="">
+
+            </div>
+        
+            <div class="footer">
+                <p>baabtra</p>
+                <p >Mentoring partner</p>
+            </div>
+            <div class="footer">
+                <p><b>Email:</b>info@baabtra.com</p>
+                <p><b>Phone:</b> +91-8592 058 444</p>
+            </div>
+            <div class="footer">
+                <p><b>Address</b></p>
+                <p>CAFIT Square, 5th Floor, HiLite Business</p>
+            </div>
+    
+
+       
+
+
+
+
+
+    </div>
+    
+</body>
+</html>
